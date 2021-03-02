@@ -1,0 +1,77 @@
+body{
+background-image: url("https://s2.best-wallpaper.net/wallpaper/5120x2880/1808/Abstract-geometric-background-lines-dots-blue_5120x2880.jpg");
+background-size: 100%;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  width:900px ;
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+  }
+
+.titulo{
+color: white;
+text-align: center;
+font-family: Impact ;
+}
+
+p{
+font-family: sans-serif;
+text-align: justify;
+color: blue;
+}
+
+li{
+font-family: sans-serif;
+text-align: justify;
+color: blue;
+}
+
+.titulo1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: darkblue;
+}
+.listado{
+  text-align: center;
+}
+
+/* Dispositivos pequeños (teléfonos, 600px y menos) */
+@media only screen and (max-width: 600px) {
+ 
+  table{
+    width: 90%;
+    font-size: 3vw;
+  }
+
+}
+
+/* Dispositivos pequeños (tabletas verticales y teléfonos
+largos, 600px y más) */
+@media only screen and (min-width: 600px) {
+  table{
+    width: 80%;
+    font-size:100%;
+  }
+  .formularios{
+    width: 500px;
+  }
+  
+}
+
+
+/* Dispositivos largos (laptops/escritorio, 992px y más) */
+@media only screen and (min-width: 992px) {
+
+  table{
+    width: 60%;
+    font-size:100%;
+  }
+  
+}
+
+
+
+
